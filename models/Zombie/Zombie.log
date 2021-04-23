@@ -1,0 +1,192 @@
+Exporter version: 2.80.1, Blender version: 2.80 (sub 75)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+		Texture directory   :  C:\Users\tsyan\OneDrive\Documents\
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
+	processing begun of skeleton:  Character, id:  0
+		processing begun of bone:  Zombie:Hips, index:  0
+		processing begun of bone:  Zombie:Spine, index:  1
+		processing begun of bone:  Zombie:Spine1, index:  2
+		processing begun of bone:  Zombie:Spine2, index:  3
+		processing begun of bone:  Zombie:Neck, index:  4
+		processing begun of bone:  Zombie:Neck1, index:  5
+		processing begun of bone:  Zombie:Head, index:  6
+		processing begun of bone:  Zombie:LeftEye, index:  7
+		processing begun of bone:  Zombie:RightEye, index:  8
+		processing begun of bone:  Zombie:Jaw, index:  9
+		processing begun of bone:  Zombie:TongueBack, index:  10
+		processing begun of bone:  Zombie:TongueTip, index:  11
+		processing begun of bone:  Zombie:LeftLipLower, index:  12
+		processing begun of bone:  Zombie:JawEND, index:  13
+		processing begun of bone:  Zombie:RightLipLower, index:  14
+		processing begun of bone:  Zombie:RightLipCorner, index:  15
+		processing begun of bone:  Zombie:LeftLipCorner, index:  16
+		processing begun of bone:  Zombie:LeftLipUpper, index:  17
+		processing begun of bone:  Zombie:LeftNostril, index:  18
+		processing begun of bone:  Zombie:LeftCheek, index:  19
+		processing begun of bone:  Zombie:LeftEyelidLower, index:  20
+		processing begun of bone:  Zombie:LeftEyelidUpper, index:  21
+		processing begun of bone:  Zombie:LeftInnerBrow, index:  22
+		processing begun of bone:  Zombie:LeftIOuterBrow, index:  23
+		processing begun of bone:  Zombie:RightInnerBrow, index:  24
+		processing begun of bone:  Zombie:RightIOuterBrow, index:  25
+		processing begun of bone:  Zombie:RightEyelidUpper, index:  26
+		processing begun of bone:  Zombie:RightEyelidLower, index:  27
+		processing begun of bone:  Zombie:RightCheek, index:  28
+		processing begun of bone:  Zombie:RightNostril, index:  29
+		processing begun of bone:  Zombie:RightLipUpper, index:  30
+		processing begun of bone:  Zombie:LeftShoulder, index:  31
+		processing begun of bone:  Zombie:LeftArm, index:  32
+		processing begun of bone:  Zombie:LeftForeArm, index:  33
+		processing begun of bone:  Zombie:LeftHand, index:  34
+		processing begun of bone:  Zombie:LeftHandThumb1, index:  35
+		processing begun of bone:  Zombie:LeftHandThumb2, index:  36
+		processing begun of bone:  Zombie:LeftHandThumb3, index:  37
+		processing begun of bone:  Zombie:LeftHandMiddle1, index:  38
+		processing begun of bone:  Zombie:LeftHandMiddle2, index:  39
+		processing begun of bone:  Zombie:LeftHandMiddle3, index:  40
+		processing begun of bone:  Zombie:LeftHandIndex1, index:  41
+		processing begun of bone:  Zombie:LeftHandIndex2, index:  42
+		processing begun of bone:  Zombie:LeftHandIndex3, index:  43
+		processing begun of bone:  Zombie:LeftHandRing1, index:  44
+		processing begun of bone:  Zombie:LeftHandRing2, index:  45
+		processing begun of bone:  Zombie:LeftHandRing3, index:  46
+		processing begun of bone:  Zombie:LeftHandPinky1, index:  47
+		processing begun of bone:  Zombie:LeftHandPinky2, index:  48
+		processing begun of bone:  Zombie:LeftHandPinky3, index:  49
+		processing begun of bone:  Zombie:RightShoulder, index:  50
+		processing begun of bone:  Zombie:RightArm, index:  51
+		processing begun of bone:  Zombie:RightForeArm, index:  52
+		processing begun of bone:  Zombie:RightHand, index:  53
+		processing begun of bone:  Zombie:RightHandThumb1, index:  54
+		processing begun of bone:  Zombie:RightHandThumb2, index:  55
+		processing begun of bone:  Zombie:RightHandThumb3, index:  56
+		processing begun of bone:  Zombie:RightHandIndex1, index:  57
+		processing begun of bone:  Zombie:RightHandIndex2, index:  58
+		processing begun of bone:  Zombie:RightHandIndex3, index:  59
+		processing begun of bone:  Zombie:RightHandMiddle1, index:  60
+		processing begun of bone:  Zombie:RightHandMiddle2, index:  61
+		processing begun of bone:  Zombie:RightHandMiddle3, index:  62
+		processing begun of bone:  Zombie:RightHandRing1, index:  63
+		processing begun of bone:  Zombie:RightHandRing2, index:  64
+		processing begun of bone:  Zombie:RightHandRing3, index:  65
+		processing begun of bone:  Zombie:RightHandPinky1, index:  66
+		processing begun of bone:  Zombie:RightHandPinky2, index:  67
+		processing begun of bone:  Zombie:RightHandPinky3, index:  68
+		processing begun of bone:  Zombie:LeftUpLeg, index:  69
+		processing begun of bone:  Zombie:LeftLeg, index:  70
+		processing begun of bone:  Zombie:LeftFoot, index:  71
+		processing begun of bone:  Zombie:LeftToeBase, index:  72
+		processing begun of bone:  Zombie:RightUpLeg, index:  73
+		processing begun of bone:  Zombie:RightLeg, index:  74
+		processing begun of bone:  Zombie:RightFoot, index:  75
+		processing begun of bone:  Zombie:RightToeBase, index:  76
+		processing action Bite:  in[1 - 126], out[0 - 126]
+		processing action Dying:  in[1 - 90], out[140 - 230]
+		processing action Idle:  in[1 - 121], out[240 - 361]
+		processing action Running:  in[1 - 25], out[370 - 395]
+		processing action TPose:  in[1 - 2], out[400 - 402]
+		processing action Walking:  in[1 - 122], out[410 - 532]
+		processing action Zombie:HeadTop_End|mixamo.com|Layer0:  in[0 - 1], out[540 - 541]
+		processing action Zombie:LeftFootToeBase_End|mixamo.com|Layer0:  in[0 - 1], out[550 - 551]
+		processing action Zombie:LeftHandIndex4|mixamo.com|Layer0:  in[0 - 1], out[560 - 561]
+		processing action Zombie:LeftHandMiddle4|mixamo.com|Layer0:  in[0 - 1], out[570 - 571]
+		processing action Zombie:LeftHandPinky4|mixamo.com|Layer0:  in[0 - 1], out[580 - 581]
+		processing action Zombie:LeftHandRing4|mixamo.com|Layer0:  in[0 - 1], out[590 - 591]
+		processing action Zombie:LeftHandThumb4|mixamo.com|Layer0:  in[0 - 1], out[600 - 601]
+		processing action Zombie:RightFootToeBase_End|mixamo.com|Layer0:  in[0 - 1], out[610 - 611]
+		processing action Zombie:RightHandIndex4|mixamo.com|Layer0:  in[0 - 1], out[620 - 621]
+		processing action Zombie:RightHandMiddle4|mixamo.com|Layer0:  in[0 - 1], out[630 - 631]
+		processing action Zombie:RightHandPinky4|mixamo.com|Layer0:  in[0 - 1], out[640 - 641]
+		processing action Zombie:RightHandRing4|mixamo.com|Layer0:  in[0 - 1], out[650 - 651]
+		processing action Zombie:RightHandThumb4|mixamo.com|Layer0:  in[0 - 1], out[660 - 661]
+	processing begun of node:  Zombie:HeadTop_End
+		animation processing begun
+			WARNING: action Zombie:HeadTop_End|mixamo.com|Layer0 has no frames, ignored.
+	processing begun of node:  Zombie:LeftHandThumb4
+		animation processing begun
+			WARNING: action Zombie:LeftHandThumb4|mixamo.com|Layer0 has no frames, ignored.
+	processing begun of node:  Zombie:LeftHandMiddle4
+		animation processing begun
+			WARNING: action Zombie:LeftHandMiddle4|mixamo.com|Layer0 has no frames, ignored.
+	processing begun of node:  Zombie:LeftHandIndex4
+		animation processing begun
+			WARNING: action Zombie:LeftHandIndex4|mixamo.com|Layer0 has no frames, ignored.
+	processing begun of node:  Zombie:LeftHandRing4
+		animation processing begun
+			WARNING: action Zombie:LeftHandRing4|mixamo.com|Layer0 has no frames, ignored.
+	processing begun of node:  Zombie:LeftHandPinky4
+		animation processing begun
+			WARNING: action Zombie:LeftHandPinky4|mixamo.com|Layer0 has no frames, ignored.
+	processing begun of node:  Zombie:RightHandThumb4
+		animation processing begun
+			WARNING: action Zombie:RightHandThumb4|mixamo.com|Layer0 has no frames, ignored.
+	processing begun of node:  Zombie:RightHandIndex4
+		animation processing begun
+			WARNING: action Zombie:RightHandIndex4|mixamo.com|Layer0 has no frames, ignored.
+	processing begun of node:  Zombie:RightHandMiddle4
+		animation processing begun
+			WARNING: action Zombie:RightHandMiddle4|mixamo.com|Layer0 has no frames, ignored.
+	processing begun of node:  Zombie:RightHandRing4
+		animation processing begun
+			WARNING: action Zombie:RightHandRing4|mixamo.com|Layer0 has no frames, ignored.
+	processing begun of node:  Zombie:RightHandPinky4
+		animation processing begun
+			WARNING: action Zombie:RightHandPinky4|mixamo.com|Layer0 has no frames, ignored.
+	processing begun of node:  Zombie:LeftFootToeBase_End
+		animation processing begun
+			WARNING: action Zombie:LeftFootToeBase_End|mixamo.com|Layer0 has no frames, ignored.
+	processing begun of node:  Zombie:RightFootToeBase_End
+		animation processing begun
+			WARNING: action Zombie:RightFootToeBase_End|mixamo.com|Layer0 has no frames, ignored.
+	processing begun of mesh:  Zombie_Geo
+		processing begun of material:  Zombie_COL
+			processing texture Zombie_normal
+				texture type:  bumpTexture, mapped using: "UVSet0"
+			processing texture Zombie_diffuse
+				texture type:  diffuseTexture, mapped using: "UVSet0"
+			processing texture Zombie_specular
+				texture type:  specularTexture, mapped using: "UVSet0"
+		Custom split normals with tangents being used
+		num positions      :  10414
+		num normals        :  10414
+		num tangents       :  41656
+		num uvs            :  20828
+		num uvs2           :  20828
+		num colors         :  0
+		num triangles      :  13027
+		Skeleton stats:  
+			Total Influencers:  20758
+			Avg # of influencers per vertex:  1.9933
+			Highest # of influencers observed:  6, num vertices with this:  21
+			exported as 6 influencers
+			num skeletonWeights and skeletonIndices:  83312
+	processing begun of node:  Zombie:HeadTop_End.001
+	processing begun of node:  Zombie:LeftFootToeBase_End.001
+	processing begun of node:  Zombie:RightFootToeBase_End.001
+	processing begun of node:  Zombie:HeadTop_End.002
+	processing begun of node:  Zombie:LeftFootToeBase_End.002
+	processing begun of node:  Zombie:RightFootToeBase_End.002
+	processing begun of node:  Zombie:HeadTop_End.003
+	processing begun of node:  Zombie:LeftFootToeBase_End.003
+	processing begun of node:  Zombie:RightFootToeBase_End.003
+	processing begun of node:  Zombie:HeadTop_End.004
+	processing begun of node:  Zombie:LeftFootToeBase_End.004
+	processing begun of node:  Zombie:RightFootToeBase_End.004
+	processing begun of node:  Zombie:HeadTop_End.005
+	processing begun of node:  Zombie:LeftFootToeBase_End.005
+	processing begun of node:  Zombie:RightFootToeBase_End.005
+========= Writing of JSON file started =========
+	writing mesh:  Zombie_Geo
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 10.3302 secs
