@@ -3,7 +3,7 @@ assignment for minor course, a 3D game in BabylonJS about a girl fights with zom
 ## Loading
 The scene loading may need sometime, please wait a little bit. You should see a girl standing in the middle of the screen once the scene is loaded.
 ## Game mechanism
-* The scene is initialized with one girl and eleven zombies.
+* The scene is initialized with one girl and eleven zombies. (really take long time on my side, please be patient...)
 * Without any instructions from keyboard, the girl is in "idle" state and idle animation is played.
 * If the girl does not move, the zombies walk randomly.
 * Please use keyboard arrow keys to move the girl. Press "up" or "down", the girl will walk forward/backward. However, the movement of the girl will attract zombies. All zombies will run towards the girl. 
@@ -27,6 +27,7 @@ Basically, I took many things from course content. Main contribution focus on th
 ## Bugs (yes it does have some :) )
 * Collision detection does not work perfectly...
 * If the girl got bitten and slash at the same time, only bitten animation will be played. Slash sound is played but no animation :/
+* I should create a health bar to display the status of the girl, but failed. So, the girl dies after got "several" bitten, unfortunately we never know how many "several" is...
 * You may find others
 
 Original commit history can be found here: https://github.com/lazzyCloud/BabylonJS_course/commits/main
